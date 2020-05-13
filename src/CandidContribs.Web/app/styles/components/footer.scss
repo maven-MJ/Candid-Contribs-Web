@@ -1,0 +1,50 @@
+footer {
+  background: url("../../images/bgs/footer_banner.png") no-repeat top center;
+  height: auto;
+}
+
+.footer-layout {
+  display: flex;
+  justify-content: space-between;
+  color: $white;
+  position: relative;
+  padding: 15px 0;
+  font-weight: 400;
+  font-style: normal;
+
+  &--logo {
+    height: 100px;
+    padding-top: 10px;
+  }
+
+  &--info {
+    flex-grow: 2;
+  }
+
+  &--more, ul {
+    text-align: right;
+  }
+
+  &--links {
+    position: absolute;
+    right: 0;
+  }
+
+  li, a {  
+    color: $yellowGreen;
+    text-align: right;
+    text-transform: uppercase;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .footer-layout {
+    &--logo {
+      height: 70px;
+      margin-bottom: 10px;
+    }
+    &--links {
+      font-size: smaller;
+    }
+  }
+}

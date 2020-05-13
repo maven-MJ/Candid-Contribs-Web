@@ -1,0 +1,52 @@
+@import "breakpoints.scss";
+
+$visual-grid: true;
+$visual-grid-color: grey;
+$visual-grid-index: front;
+$visual-grid-opacity: 0;
+
+// font sizes
+$base-size: 16px;
+
+// Change the grid settings
+$max-width: 1230px;
+$max-width-small: 644px;
+$max-width-extended: 1440px;
+
+// BREAKPOINTS
+$desktop-lg: new-breakpoint(min-width 1440px 12);
+$desktop-md: new-breakpoint(max-width 1100px 12);
+$tablet-lg: new-breakpoint(max-width 1024px 12);
+$desktop: new-breakpoint(max-width 1019px 12);
+$tablet: new-breakpoint(max-width 767px 12);
+$tablet2: new-breakpoint(max-width 768px 12);
+$mobile: new-breakpoint(max-width 480px 12);
+
+/// Colours ///
+$white: white;
+$black: black;
+$primary: black;
+
+$offblack: #323232;
+$basegrey: #ededed;
+
+// obtained via http://chir.ag/projects/name-that-color/
+
+$parsley: #196127;
+$forest: #239A3B;
+$mantis: #7BC96F;
+$yellowGreen: #C6E48B;
+
+$laura: #91244D;
+$lotte: #2861A8;
+$carole: #1F1646;
+$emma: #FFC365;
+
+$finlandia: #596056;
+$mineshaft: #333333;
+$athens: #EBEDF0;
+
+$porcelain: #f3f4fb;
+$subnav-bg: $porcelain;
+
+$padding-base-vertical: 20px;
